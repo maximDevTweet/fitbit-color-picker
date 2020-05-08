@@ -14,7 +14,7 @@ function mainSettings(props) {
   return (
     <Page>
 
-      <Section title={<Text bold align="center">Color Picker PoC 1</Text>}>
+      <Section title={<Text bold align="center">Settings with color picker</Text>}>
 
         <Toggle
           settingsKey="section1ToggleOptions"

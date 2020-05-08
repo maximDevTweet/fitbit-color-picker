@@ -21,6 +21,7 @@ initialize();
 /* Initializes the settings object and callbacks */
 function initialize() {
   settings = loadSettings();
+  onSettingsChange(settings);
   inbox.addEventListener("newfile", processReceivedFileMessages);
   // Register for the unload event
   me.addEventListener("unload", saveSettings);
