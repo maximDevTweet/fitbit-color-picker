@@ -1,0 +1,27 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+#background1 {
+  y: 0%;
+  width: 100%;
+  height: 33%;
+  fill: white;
+}
+
+#background2 {
+  y: 33%;
+  width: 100%;
+  height: 33%;
+  fill: white;
+}
+
+#background3 {
+  y: 66%;
+  width: 100%;
+  height: 33%;
+  fill: white;
+}
